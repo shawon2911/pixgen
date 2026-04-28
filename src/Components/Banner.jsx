@@ -22,7 +22,7 @@ const Banner = () => {
             </Link>
 
             <Link href="/pricing">
-              <Button variant="outline" className="text-white bg-none hover:bg-linear-to-r from-pink-500 via-purple-500 to-red-500 p-2 rounded-full">
+              <Button variant="outline" className="text-white border hover:border-none   hover:bg-linear-to-r from-pink-500 via-purple-500 to-red-500 p-2 rounded-full">
                 View Pricing
               </Button>
             </Link>
