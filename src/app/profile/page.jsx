@@ -1,4 +1,5 @@
 "use client";
+import { UpdateProfileModal } from "@/Components/UpdateProfileModal";
 import { authClient } from "@/lib/auth-client";
 import { Avatar, Card } from "@heroui/react";
 import React from "react";
@@ -20,6 +21,7 @@ const ProfilePage = () => {
         </Avatar>
         <h2 className="font-bold text-xl">{user?.name}</h2>
         <p className="text-muted">{user?.email}</p>
+        <UpdateProfileModal />
       </Card>
     </div>
   );
